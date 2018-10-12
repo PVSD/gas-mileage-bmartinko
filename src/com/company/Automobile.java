@@ -11,9 +11,8 @@ public class Automobile {
     public Automobile (int mpg){
         milesPerGallon = mpg;
     }
-    public void takeTrip (int mileage){
-        this.miles = miles;
-        gallons = mileage - milesPerGallon;
+    public void takeTrip (int t){
+        gallons = gallons - (t/milesPerGallon);
     }
     public void fillUp (int gas){
         gas += gallons;
