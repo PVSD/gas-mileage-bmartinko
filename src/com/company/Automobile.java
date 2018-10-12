@@ -5,7 +5,7 @@ package com.company;
  */
 public class Automobile {
     public int miles = 0;
-    public int gallons = 0;
+    public double gallons = 0;
     public int milesPerGallon = 0;
 
     public Automobile (int mpg){
